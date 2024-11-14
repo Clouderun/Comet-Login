@@ -1,0 +1,69 @@
+
+body {
+    background-color: lavender;
+    font-family: 'Sour Gummy', sans-serif;
+    flex-grow: 1;
+    display: flex; justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+}
+
+h1 {
+    color: #e798e1;
+    text-shadow: 2px 2px black ;
+}
+
+#flor {
+    max-width: 300px;
+    margin-left: 50%;
+    position: absolute;
+    top: 20%;
+    left: 7%;
+    right: 7px;
+}
+
+.container {
+    /* width: 300px;
+    height: 300px;
+    margin-left: 38em;
+    margin-top: 12em; */
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: ghostwhite;
+    display:grid;
+    flex-wrap: wrap;
+    box-shadow: 20px 20px 5px rgba(229, 216, 228, 0.65);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+    gap: 10px
+}
+
+#email, #senha, #login {
+    border-radius: 10px;
+    width: 20em;
+    height: 40px;
+    margin: 10px;
+    margin-left: 1em;
+}
+
+#login {
+    /* background: #e798e1; */
+    background: linear-gradient(0deg, rgba(238,129,230,1) 0%, rgba(239,172,255,1) 82%);
+    border-color:darkorchid;
+}
+
+/* #email:focus {
+    color: black;
+    background-color: rgb(237, 255, 104);
+}
+#senha:focus {
+    background-color: rgb(125, 196, 4);
+} */
+
+#email:focus, #senha:focus {
+    background-color: lavenderblush;
+}
